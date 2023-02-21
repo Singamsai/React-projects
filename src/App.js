@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Colorcomp from './components/Colorcomp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Colorcomp color="PINK" code="#FF6663"/>
+     <Colorcomp color="GRAY" code="#333333"/>
+     <Colorcomp color="BLACK" code="#000000"/>
+     <Colorcomp color="GREEN" code="#38BB14"/>
+     <Colorcomp color="RED" code="#C90B0B"/>
+     <Colorcomp color="ORANGE" code="#FF8000"/>
+     <Colorcomp color="YELLOW" code="#FFF500"/>
+     <Colorcomp color="LIGHT GRAY" code="#CCCCCC"/>
+     <Colorcomp color="PURPLE" code="#7E41A2"/>
+     <Colorcomp color="BROWN" code="#C14911"/>
     </div>
   );
 }
